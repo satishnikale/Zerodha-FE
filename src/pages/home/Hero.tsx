@@ -9,7 +9,7 @@ function Hero() {
                 <img className="w-full h-full" src={hero} alt="" />
                 <h1 className="text-3xl font-semibold mt-8 mb-4">Invest in everything</h1>
                 <p className="mb-8">Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-                <Button text={"Sign Up for free"} />
+                <Button text={"Sign Up for free"} varient="primary" />
             </div>
         </MainContent>
      );
