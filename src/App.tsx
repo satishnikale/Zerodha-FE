@@ -1,11 +1,9 @@
 import './App.css';
 
-
-
 function App() {
   return (    
     <div>
-      Hello We are Building zerodha... 
+      Hello We are Building zerodha...
     </div>
   )
 }
