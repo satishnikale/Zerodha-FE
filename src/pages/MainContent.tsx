@@ -4,7 +4,7 @@ interface ChilProps{
 }
 export default function MainContent({children}:ChilProps) {
   return (
-    <div className="w-7/12 max-w-[1080px] h-auto mx-auto">
+    <div className="w-11/12 lg:w-7/12 max-w-[1080px] h-auto mx-auto">
       {children}
     </div>
   )

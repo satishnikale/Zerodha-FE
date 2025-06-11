@@ -6,7 +6,7 @@ import { Button } from "../../Components/ui/Button";
 function Award() {
   return (
     <MainContent>
-      <div className="w-full h-auto flex justify-center gap-8">
+      <div className="w-full h-auto flex flex-col lg:flex-row justify-center gap-8">
         <div className="w-full h-auto space-y-7">
             <h1 className="font-inter text-2xl">Trust with confidence</h1>
           <AwardCard
@@ -26,8 +26,8 @@ function Award() {
             text="With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money."
           />
         </div>
-        <div>
-          <img src={ecosystem_img} alt="" />
+        <div className="flex flex-col justify-center">
+          <img className="w-[300px] lg:w-[400px] mx-auto max-w-[400px]" src={ecosystem_img} alt="" />
           <div className="flex my-2">
             <Button text="Explore our products" varient="secondary" rightIcon={true} />
             <Button text="Try kite demo" varient="secondary" rightIcon={true} />
