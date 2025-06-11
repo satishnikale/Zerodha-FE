@@ -13,7 +13,6 @@ export const HomePage = () => {
         <Hero />
         <Award />
         <Stat />
-        <Hero />
         <Pricing />
         <Education />
         <OpenAccount />
