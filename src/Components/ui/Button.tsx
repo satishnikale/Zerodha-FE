@@ -8,9 +8,8 @@ interface ButtonProps {
 }
 
 const buttonVarientStyle = {
-  primary:
-    "text-sm rounded-sm font-inter font-semibold text-white bg-blue-800 hover:bg-black",
-  secondary: "flex text-[12px] font-bold text-blue-500 hover:text-black",
+  primary:"text-sm rounded-sm font-inter px-4 font-semibold text-white bg-blue-800 hover:bg-black",
+  secondary:"flex text-[12px] font-bold text-blue-500 hover:text-black",
 };
 
 export const Button = ({ text, varient, rightIcon }: ButtonProps) => {
