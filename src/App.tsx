@@ -6,10 +6,13 @@ import ProductPage from './pages/products/ProductPage';
 import AboutPage from './pages/about/AboutPage';
 import PricingPage from './pages/pricing/PricingPage';
 import SupportPage from './pages/support/SupportPage';
+import { Navbar } from './pages/Navbar';
+import Footer from './pages/Footer';
 
 function App() {
   return (    
       <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route index path="/" element={ <HomePage /> } />
           <Route path="/open-account" element={ <SignUpPage /> } />
@@ -19,6 +22,7 @@ function App() {
           <Route path="/support" element={ <SupportPage /> } />        
         {/* </ Route> */}
         </Routes>
+        <Footer/>
       </BrowserRouter>
   )
 }
