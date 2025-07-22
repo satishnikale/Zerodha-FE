@@ -1,7 +1,11 @@
+import { AboutHero } from "./Hero";
+import { Team } from "./Team";
+
 function AboutPage() {
     return ( 
         <div>
-            This is an about page ... 
+            <AboutHero />
+            <Team />
         </div>
      );
 }
