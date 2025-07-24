@@ -1,4 +1,4 @@
-import { PricingCard } from "../../Components/PricingCard";
+import { PricingCard } from "../../Components/ui/PricingCard";
 import zero from "../../assets/images/pricing0.svg";
 import twenty from "../../assets/images/intradayTrades.svg";
 
